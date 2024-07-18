@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7704BB8187CD9156F84F6293 /* Pods_PharmacyTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD6937835DDA7053324BBE5 /* Pods_PharmacyTask.framework */; };
 		E69D422C2C493457005062F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D422B2C493457005062F0 /* AppDelegate.swift */; };
 		E69D422E2C493457005062F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D422D2C493457005062F0 /* SceneDelegate.swift */; };
 		E69D42302C493457005062F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D422F2C493457005062F0 /* ViewController.swift */; };
 		E69D42332C493457005062F0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E69D42322C493457005062F0 /* Base */; };
 		E69D42352C49345A005062F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69D42342C49345A005062F0 /* Assets.xcassets */; };
 		E69D42382C49345A005062F0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E69D42372C49345A005062F0 /* Base */; };
+		E69D42402C4946E0005062F0 /* ReturnRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D423F2C4946DF005062F0 /* ReturnRequestViewController.swift */; };
+		E69D42422C494D66005062F0 /* ReturnRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D42412C494D66005062F0 /* ReturnRequestTableViewCell.swift */; };
+		E69D42442C494EF4005062F0 /* ReturnRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D42432C494EF4005062F0 /* ReturnRequest.swift */; };
+		E69D42462C495424005062F0 /* CreateReturnRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D42452C495424005062F0 /* CreateReturnRequestViewController.swift */; };
+		E69D42482C495D48005062F0 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69D42472C495D48005062F0 /* AddItemViewController.swift */; };
+		E6A50D692C499D47006B0101 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D682C499D47006B0101 /* ItemsViewController.swift */; };
+		E6A50D6B2C499DB8006B0101 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D6A2C499DB8006B0101 /* ItemCell.swift */; };
+		E6A50D6D2C499DE8006B0101 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D6C2C499DE8006B0101 /* Item.swift */; };
+		E6A50D702C49A7A8006B0101 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D6F2C49A7A8006B0101 /* NetworkManager.swift */; };
+		E6A50D752C49A9F5006B0101 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D742C49A9F5006B0101 /* LoginViewModel.swift */; };
+		E6A50D7C2C49AC6F006B0101 /* ReturnRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D7B2C49AC6F006B0101 /* ReturnRequestViewModel.swift */; };
+		E6A50D812C49AF23006B0101 /* CreateReturnRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D802C49AF23006B0101 /* CreateReturnRequestViewModel.swift */; };
+		E6A50D832C49B7B6006B0101 /* CreateReturnRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D822C49B7B6006B0101 /* CreateReturnRequestResponse.swift */; };
+		E6A50D892C49BA2E006B0101 /* AddItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D882C49BA2D006B0101 /* AddItemViewModel.swift */; };
+		E6A50D8E2C49C031006B0101 /* ItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A50D8D2C49C031006B0101 /* ItemsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		661686B0648D20129606EC03 /* Pods-PharmacyTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacyTask.release.xcconfig"; path = "Target Support Files/Pods-PharmacyTask/Pods-PharmacyTask.release.xcconfig"; sourceTree = "<group>"; };
+		8BD6937835DDA7053324BBE5 /* Pods_PharmacyTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PharmacyTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69D42282C493457005062F0 /* PharmacyTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PharmacyTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69D422B2C493457005062F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E69D422D2C493457005062F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,22 @@
 		E69D42342C49345A005062F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E69D42372C49345A005062F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E69D42392C49345A005062F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E69D423F2C4946DF005062F0 /* ReturnRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnRequestViewController.swift; sourceTree = "<group>"; };
+		E69D42412C494D66005062F0 /* ReturnRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnRequestTableViewCell.swift; sourceTree = "<group>"; };
+		E69D42432C494EF4005062F0 /* ReturnRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnRequest.swift; sourceTree = "<group>"; };
+		E69D42452C495424005062F0 /* CreateReturnRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReturnRequestViewController.swift; sourceTree = "<group>"; };
+		E69D42472C495D48005062F0 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		E6A50D682C499D47006B0101 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		E6A50D6A2C499DB8006B0101 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		E6A50D6C2C499DE8006B0101 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E6A50D6F2C49A7A8006B0101 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E6A50D742C49A9F5006B0101 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E6A50D7B2C49AC6F006B0101 /* ReturnRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnRequestViewModel.swift; sourceTree = "<group>"; };
+		E6A50D802C49AF23006B0101 /* CreateReturnRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReturnRequestViewModel.swift; sourceTree = "<group>"; };
+		E6A50D822C49B7B6006B0101 /* CreateReturnRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReturnRequestResponse.swift; sourceTree = "<group>"; };
+		E6A50D882C49BA2D006B0101 /* AddItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewModel.swift; sourceTree = "<group>"; };
+		E6A50D8D2C49C031006B0101 /* ItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewModel.swift; sourceTree = "<group>"; };
+		EA83AC9C94B78273D69F46AA /* Pods-PharmacyTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacyTask.debug.xcconfig"; path = "Target Support Files/Pods-PharmacyTask/Pods-PharmacyTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7704BB8187CD9156F84F6293 /* Pods_PharmacyTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17D3E9920B5147170B591848 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA83AC9C94B78273D69F46AA /* Pods-PharmacyTask.debug.xcconfig */,
+				661686B0648D20129606EC03 /* Pods-PharmacyTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E62F96066C581247EC5DAA91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD6937835DDA7053324BBE5 /* Pods_PharmacyTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E69D421F2C493457005062F0 = {
 			isa = PBXGroup;
 			children = (
 				E69D422A2C493457005062F0 /* PharmacyTask */,
 				E69D42292C493457005062F0 /* Products */,
+				17D3E9920B5147170B591848 /* Pods */,
+				E62F96066C581247EC5DAA91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +110,190 @@
 		E69D422A2C493457005062F0 /* PharmacyTask */ = {
 			isa = PBXGroup;
 			children = (
+				E6A50D8F2C49CE52006B0101 /* Model */,
+				E6A50D762C49AB3A006B0101 /* Modules */,
+				E6A50D6E2C49A785006B0101 /* Network */,
 				E69D422B2C493457005062F0 /* AppDelegate.swift */,
 				E69D422D2C493457005062F0 /* SceneDelegate.swift */,
-				E69D422F2C493457005062F0 /* ViewController.swift */,
 				E69D42312C493457005062F0 /* Main.storyboard */,
 				E69D42342C49345A005062F0 /* Assets.xcassets */,
 				E69D42362C49345A005062F0 /* LaunchScreen.storyboard */,
 				E69D42392C49345A005062F0 /* Info.plist */,
 			);
 			path = PharmacyTask;
+			sourceTree = "<group>";
+		};
+		E6A50D6E2C49A785006B0101 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D6F2C49A7A8006B0101 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E6A50D712C49A9AC006B0101 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D732C49A9CC006B0101 /* View */,
+				E6A50D722C49A9BC006B0101 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E6A50D722C49A9BC006B0101 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D742C49A9F5006B0101 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E6A50D732C49A9CC006B0101 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E69D422F2C493457005062F0 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6A50D762C49AB3A006B0101 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D8A2C49BF97006B0101 /* AllItems */,
+				E6A50D852C49B9E7006B0101 /* AddItem */,
+				E6A50D7D2C49ADD6006B0101 /* CreateRequest */,
+				E6A50D772C49AB57006B0101 /* ReturnRequest */,
+				E6A50D712C49A9AC006B0101 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E6A50D772C49AB57006B0101 /* ReturnRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D7A2C49AB86006B0101 /* Model */,
+				E6A50D792C49AB7B006B0101 /* ViewModel */,
+				E6A50D782C49AB6C006B0101 /* View */,
+			);
+			path = ReturnRequest;
+			sourceTree = "<group>";
+		};
+		E6A50D782C49AB6C006B0101 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E69D42412C494D66005062F0 /* ReturnRequestTableViewCell.swift */,
+				E69D423F2C4946DF005062F0 /* ReturnRequestViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6A50D792C49AB7B006B0101 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D7B2C49AC6F006B0101 /* ReturnRequestViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E6A50D7A2C49AB86006B0101 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E69D42432C494EF4005062F0 /* ReturnRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6A50D7D2C49ADD6006B0101 /* CreateRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D842C49B7C0006B0101 /* Model */,
+				E6A50D7F2C49AE03006B0101 /* View */,
+				E6A50D7E2C49ADF3006B0101 /* ViewModel */,
+			);
+			path = CreateRequest;
+			sourceTree = "<group>";
+		};
+		E6A50D7E2C49ADF3006B0101 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D802C49AF23006B0101 /* CreateReturnRequestViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E6A50D7F2C49AE03006B0101 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E69D42452C495424005062F0 /* CreateReturnRequestViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6A50D842C49B7C0006B0101 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D822C49B7B6006B0101 /* CreateReturnRequestResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6A50D852C49B9E7006B0101 /* AddItem */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D872C49BA0C006B0101 /* View */,
+				E6A50D862C49B9FA006B0101 /* ViewModel */,
+			);
+			path = AddItem;
+			sourceTree = "<group>";
+		};
+		E6A50D862C49B9FA006B0101 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D882C49BA2D006B0101 /* AddItemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E6A50D872C49BA0C006B0101 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E69D42472C495D48005062F0 /* AddItemViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6A50D8A2C49BF97006B0101 /* AllItems */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D8C2C49BFE2006B0101 /* View */,
+				E6A50D8B2C49BFB9006B0101 /* ViewModel */,
+			);
+			path = AllItems;
+			sourceTree = "<group>";
+		};
+		E6A50D8B2C49BFB9006B0101 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D8D2C49C031006B0101 /* ItemsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E6A50D8C2C49BFE2006B0101 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D682C499D47006B0101 /* ItemsViewController.swift */,
+				E6A50D6A2C499DB8006B0101 /* ItemCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6A50D8F2C49CE52006B0101 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6A50D6C2C499DE8006B0101 /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +303,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E69D423C2C49345A005062F0 /* Build configuration list for PBXNativeTarget "PharmacyTask" */;
 			buildPhases = (
+				E99E458746AA6614A09F1800 /* [CP] Check Pods Manifest.lock */,
 				E69D42242C493457005062F0 /* Sources */,
 				E69D42252C493457005062F0 /* Frameworks */,
 				E69D42262C493457005062F0 /* Resources */,
+				D477E672F64EDA4E0CAEB266 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +364,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D477E672F64EDA4E0CAEB266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PharmacyTask/Pods-PharmacyTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PharmacyTask/Pods-PharmacyTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PharmacyTask/Pods-PharmacyTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E99E458746AA6614A09F1800 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PharmacyTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E69D42242C493457005062F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6A50D7C2C49AC6F006B0101 /* ReturnRequestViewModel.swift in Sources */,
+				E6A50D702C49A7A8006B0101 /* NetworkManager.swift in Sources */,
+				E69D42402C4946E0005062F0 /* ReturnRequestViewController.swift in Sources */,
+				E6A50D892C49BA2E006B0101 /* AddItemViewModel.swift in Sources */,
+				E6A50D812C49AF23006B0101 /* CreateReturnRequestViewModel.swift in Sources */,
+				E69D42422C494D66005062F0 /* ReturnRequestTableViewCell.swift in Sources */,
+				E69D42462C495424005062F0 /* CreateReturnRequestViewController.swift in Sources */,
 				E69D42302C493457005062F0 /* ViewController.swift in Sources */,
+				E6A50D6B2C499DB8006B0101 /* ItemCell.swift in Sources */,
+				E6A50D832C49B7B6006B0101 /* CreateReturnRequestResponse.swift in Sources */,
+				E6A50D692C499D47006B0101 /* ItemsViewController.swift in Sources */,
+				E6A50D6D2C499DE8006B0101 /* Item.swift in Sources */,
+				E6A50D752C49A9F5006B0101 /* LoginViewModel.swift in Sources */,
+				E69D42442C494EF4005062F0 /* ReturnRequest.swift in Sources */,
+				E69D42482C495D48005062F0 /* AddItemViewController.swift in Sources */,
 				E69D422C2C493457005062F0 /* AppDelegate.swift in Sources */,
 				E69D422E2C493457005062F0 /* SceneDelegate.swift in Sources */,
+				E6A50D8E2C49C031006B0101 /* ItemsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +575,13 @@
 		};
 		E69D423D2C49345A005062F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA83AC9C94B78273D69F46AA /* Pods-PharmacyTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PharmacyTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +604,13 @@
 		};
 		E69D423E2C49345A005062F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661686B0648D20129606EC03 /* Pods-PharmacyTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PharmacyTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
