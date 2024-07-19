@@ -8,7 +8,7 @@
 import UIKit
 
 class ItemCell: UITableViewCell {
-    
+    @IBOutlet weak var itemCellView: UIView!
     @IBOutlet weak var ndcLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var manufacturerLabel: UILabel!

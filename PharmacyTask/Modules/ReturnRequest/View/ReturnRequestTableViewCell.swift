@@ -9,6 +9,8 @@ import UIKit
 
 class ReturnRequestTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var ReturnRequestsCellView: UIView!
+    
     @IBOutlet weak var idLabel: UILabel!
     
     @IBOutlet weak var createdAtLabel: UILabel!

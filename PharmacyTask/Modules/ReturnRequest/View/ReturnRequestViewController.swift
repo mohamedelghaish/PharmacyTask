@@ -53,6 +53,10 @@ class ReturnRequestViewController: UIViewController, UITableViewDataSource, UITa
         cell.numOfItemsLabel.text = "Number of Items: \(returnRequestContent.numberOfItems)"
         cell.statusLabel.text = "Status: \(returnRequest.returnRequestStatusLabel)"
         cell.serviceTypeLabel.text = "Service Type: \(returnRequest.serviceType)"
+        
+        cell.ReturnRequestsCellView.layer.cornerRadius = 10.0
+        cell.ReturnRequestsCellView.layer.borderWidth = 1.5
+        cell.ReturnRequestsCellView.layer.borderColor = UIColor.gray.cgColor
         return cell
     }
     

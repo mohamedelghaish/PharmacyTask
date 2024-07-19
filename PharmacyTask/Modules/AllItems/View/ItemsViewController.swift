@@ -65,6 +65,10 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.configure(with: item)
         cell.updateButton.tag = indexPath.row
         cell.updateButton.addTarget(self, action: #selector(promptUpdateItem(_:)), for: .touchUpInside)
+        
+        cell.itemCellView.layer.cornerRadius = 10.0
+        cell.itemCellView.layer.borderWidth = 1.5
+        cell.itemCellView.layer.borderColor = UIColor.gray.cgColor
         return cell
     }
     
